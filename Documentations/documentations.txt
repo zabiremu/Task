@@ -1,0 +1,27 @@
+Task 1: Class Inheritance**
+Create classes to represent geometric shapes, including circles and rectangles. Implement methods for area calculation. You can use the provided example code as a reference.
+
+Answer: GeometricShapes Folder
+
+Task 4: Polymorphism**
+Build a set of animal classes that demonstrate polymorphism by overriding a method for making sounds
+
+Answer: PolymorphicAnimalSounds Folder
+
+
+Task 5: To-Do Module** (Mandatory)
+Develop a simple To-do crud module using Laravel Framework. Use VueJs for the view rendering (Optional), that will be a huge advantage for you as currently we are working with SPA in our company. If you do not know VueJs, then its ok to use blade view rending for the module
+
+Answer: ToDoApp
+
+Installation:
+1. composer update.
+2. npm install
+3. php artisan migrate 
+4. php artisan key:generate (if needed)
+
+Run Software:
+1. php artisan serve
+2. npm run dev
+
+
