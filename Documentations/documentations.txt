@@ -1,27 +1,67 @@
-Task 1: Class Inheritance**
-Create classes to represent geometric shapes, including circles and rectangles. Implement methods for area calculation. You can use the provided example code as a reference.
+GeometricShapes Folder
+=======
 
-Answer: GeometricShapes Folder
+This folder contains classes to represent geometric shapes, namely circles and rectangles. Each class has methods for calculating the area of the respective shape.
 
-Task 4: Polymorphism**
-Build a set of animal classes that demonstrate polymorphism by overriding a method for making sounds
+1. Shape (Abstract Base Class)
 
-Answer: PolymorphicAnimalSounds Folder
+This is the abstract base class for all geometric shapes. It defines an abstract method calculate() that should be implemented by the subclasses.
+
+2. Circle
+
+The Circle class represents a circle shape. It inherits from the Shape class and implements the calculate() method to compute the area of the circle.
+
+3. Rectangle
+
+The Rectangle class represents a rectangle shape. Similar to the Circle class, it inherits from the Shape class and implements the calculate() method to calculate the area of the rectangle.
 
 
-Task 5: To-Do Module** (Mandatory)
-Develop a simple To-do crud module using Laravel Framework. Use VueJs for the view rendering (Optional), that will be a huge advantage for you as currently we are working with SPA in our company. If you do not know VueJs, then its ok to use blade view rending for the module
+PolymorphicAnimalSounds Folder
+===========
 
-Answer: ToDoApp
+This folder contains classes representing different types of animals. These classes demonstrate polymorphism by overriding a method for making sounds.
 
-Installation:
-1. composer update.
-2. npm install
-3. php artisan migrate 
-4. php artisan key:generate (if needed)
+1. Animal (Base Class)
 
-Run Software:
-1. php artisan serve
-2. npm run dev
+The Animal class serves as the base class for all animal classes. It contains properties and methods common to all animals.
+
+2. Cat, Dog, Duck (Subclasses)
+
+These subclasses (Cat, Dog, and Duck) inherit from the Animal class. They override the makeSound() method to provide specific animal sounds.
+
+ToDoApp
+===
+
+This module is a simple To-Do CRUD application developed using the Laravel framework. It includes both backend and frontend.
+
+Installation
+======
+
+Run composer update to update PHP dependencies.
+Run npm install to install JavaScript dependencies.
+Run php artisan migrate to create necessary database tables.
+Run php artisan key:generate to generate an application key if needed.
+
+Running the Software
+=======
+Execute php artisan serve to start the Laravel development server.
+Run npm run dev to compile frontend assets.
+
+GeometricShapes Folder - Code
+========
+
+The provided code demonstrates a basic implementation of classes to represent geometric shapes and calculate their areas.
+
+Shape is an abstract class with an abstract method calculate().
+Circle and Rectangle are concrete subclasses of Shape that calculate the area based on their properties.
+
+PolymorphicAnimalSounds Folder - Code
+==============
+
+The provided code illustrates polymorphism using animal classes:
+
+Animal is a base class with common properties and methods for all animals.
+Subclasses like Cat, Dog, and Duck override the makeSound() method to provide animal-specific sounds.
+Remember to integrate these code snippets into your actual codebase and customize them according to your application's requirements.
 
 
